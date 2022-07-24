@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Mochiy+Pop+One&display=swap');
+
+body {
+  /* background-image: linear-gradient(to right, #f46b45, #eea849); */
+  background-image: linear-gradient(to right, #3f63b8, #814681);
+  color: white;
+  text-align: center;
+  font-family: Mochiy Pop One;
+}
+.wrapper {
+  width: fit-content;
+  margin: auto;
+}
+.hint-div {
+  display: flex;
+  color: rgb(18, 18, 20);
+  font-size: 20px;
+}
+.hint-btn,
+.reset-btn,
+.notif-btn {
+  cursor: pointer;
+}
+.reset-btn {
+  margin-left: auto;
+  width: 70px;
+  height: 40px;
+  margin-right: 50px;
+  color: black;
+  background-color: aquamarine;
+  font-size: large;
+}
+
+.hint-btn {
+  margin-left: 50px;
+  width: 70px;
+  height: 40px;
+  margin-right: auto;
+  color: black;
+  background-color: aquamarine;
+  font-size: large;
+}
+
+
+.alpha {
+  width: 3rem;
+  height: 3rem;
+  background: #ffe5b4;
+  border: solid black;
+  border-radius: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+.alpha:hover {
+  background-color: #e75480;
+  border: none;
+}
+.disabled {
+  pointer-events: none;
+  background-color: darkgray;
+}
+
+.word-div {
+  display: inline-flex;
+}
+.word {
+  margin-right: 1.5rem;
+}
+
+.notif {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fc6c85;
+  width: 20rem;
+  padding: 20px 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.blur {
+  filter: blur(2px);
+}
+.hidden {
+  display: none;
+}
